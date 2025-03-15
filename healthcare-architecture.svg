@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Django Healthcare Backend Architecture</text>
+  
+  <!-- Client Layer -->
+  <rect x="50" y="80" width="800" height="70" rx="5" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+  <text x="450" y="115" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Client Applications</text>
+  <rect x="100" y="95" width="120" height="40" rx="5" fill="#adb5bd" stroke="#495057" stroke-width="1"/>
+  <text x="160" y="120" font-family="Arial" font-size="14" text-anchor="middle">Web Browser</text>
+  <rect x="250" y="95" width="120" height="40" rx="5" fill="#adb5bd" stroke="#495057" stroke-width="1"/>
+  <text x="310" y="120" font-family="Arial" font-size="14" text-anchor="middle">Mobile App</text>
+  <rect x="400" y="95" width="120" height="40" rx="5" fill="#adb5bd" stroke="#495057" stroke-width="1"/>
+  <text x="460" y="120" font-family="Arial" font-size="14" text-anchor="middle">Postman</text>
+  <rect x="550" y="95" width="120" height="40" rx="5" fill="#adb5bd" stroke="#495057" stroke-width="1"/>
+  <text x="610" y="120" font-family="Arial" font-size="14" text-anchor="middle">Third-Party API</text>
+  
+  <!-- HTTP/HTTPS Layer -->
+  <rect x="50" y="170" width="800" height="40" rx="5" fill="#ced4da" stroke="#495057" stroke-width="2"/>
+  <text x="450" y="195" font-family="Arial" font-size="16" text-anchor="middle">HTTP/HTTPS Requests</text>
+  
+  <!-- Django Layer -->
+  <rect x="50" y="230" width="800" height="250" rx="5" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+  <text x="450" y="255" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Django Application</text>
+  
+  <!-- URL Routing -->
+  <rect x="70" y="270" width="200" height="50" rx="5" fill="#6c757d" stroke="#495057" stroke-width="1"/>
+  <text x="170" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="white">URL Routing</text>
+  
+  <!-- Authentication -->
+  <rect x="290" y="270" width="200" height="50" rx="5" fill="#6c757d" stroke="#495057" stroke-width="1"/>
+  <text x="390" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Authentication (JWT)</text>
+  
+  <!-- REST Framework -->
+  <rect x="510" y="270" width="320" height="50" rx="5" fill="#6c757d" stroke="#495057" stroke-width="1"/>
+  <text x="670" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Django REST Framework</text>
+  
+  <!-- API Views -->
+  <rect x="70" y="340" width="160" height="120" rx="5" fill="#adb5bd" stroke="#495057" stroke-width="1"/>
+  <text x="150" y="360" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">API Views</text>
+  <rect x="85" y="370" width="130" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="150" y="388" font-family="Arial" font-size="12" text-anchor="middle">AccountsView</text>
+  <rect x="85" y="400" width="130" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="150" y="418" font-family="Arial" font-size="12" text-anchor="middle">PatientsViewSet</text>
+  <rect x="85" y="430" width="130" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="150" y="448" font-family="Arial" font-size="12" text-anchor="middle">DoctorsViewSet</text>
+  
+  <!-- Models -->
+  <rect x="250" y="340" width="160" height="120" rx="5" fill="#adb5bd" stroke="#495057" stroke-width="1"/>
+  <text x="330" y="360" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Models</text>
+  <rect x="265" y="370" width="130" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="330" y="388" font-family="Arial" font-size="12" text-anchor="middle">User/UserProfile</text>
+  <rect x="265" y="400" width="130" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="330" y="418" font-family="Arial" font-size="12" text-anchor="middle">Patient</text>
+  <rect x="265" y="430" width="130" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="330" y="448" font-family="Arial" font-size="12" text-anchor="middle">Doctor</text>
+  
+  <!-- Serializers -->
+  <rect x="430" y="340" width="160" height="120" rx="5" fill="#adb5bd" stroke="#495057" stroke-width="1"/>
+  <text x="510" y="360" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Serializers</text>
+  <rect x="445" y="370" width="130" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="510" y="388" font-family="Arial" font-size="12" text-anchor="middle">UserSerializer</text>
+  <rect x="445" y="400" width="130" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="510" y="418" font-family="Arial" font-size="12" text-anchor="middle">PatientSerializer</text>
+  <rect x="445" y="430" width="130" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="510" y="448" font-family="Arial" font-size="12" text-anchor="middle">DoctorSerializer</text>
+  
+  <!-- Permissions -->
+  <rect x="610" y="340" width="220" height="120" rx="5" fill="#adb5bd" stroke="#495057" stroke-width="1"/>
+  <text x="720" y="360" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Custom Components</text>
+  <rect x="625" y="370" width="190" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="720" y="388" font-family="Arial" font-size="12" text-anchor="middle">Permissions</text>
+  <rect x="625" y="400" width="190" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="720" y="418" font-family="Arial" font-size="12" text-anchor="middle">Filters</text>
+  <rect x="625" y="430" width="190" height="25" rx="3" fill="#dee2e6" stroke="#495057" stroke-width="1"/>
+  <text x="720" y="448" font-family="Arial" font-size="12" text-anchor="middle">Exception Handling</text>
+  
+  <!-- Database Layer -->
+  <rect x="50" y="500" width="800" height="70" rx="5" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+  <text x="450" y="530" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Database Layer</text>
+  
+  <rect x="290" y="515" width="320" height="40" rx="5" fill="#6c757d" stroke="#495057" stroke-width="1"/>
+  <text x="450" y="540" font-family="Arial" font-size="14" text-anchor="middle" fill="white">PostgreSQL / SQLite</text>
+  
+  <!-- Arrows -->
+  <!-- Client to HTTP -->
+  <path d="M450,150 L450,170" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- HTTP to Django -->
+  <path d="M450,210 L450,230" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- URL to Authentication -->
+  <path d="M270,295 L290,295" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Authentication to REST Framework -->
+  <path d="M490,295 L510,295" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- REST Framework to Views -->
+  <path d="M670,320 L670,335 L150,335" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Views to Models -->
+  <path d="M230,400 L250,400" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Models to Serializers -->
+  <path d="M410,400 L430,400" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Serializers to Custom Components -->
+  <path d="M590,400 L610,400" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Django to Database -->
+  <path d="M450,480 L450,500" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Arrow Marker -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+        markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#495057"/>
+    </marker>
+  </defs>
+</svg>

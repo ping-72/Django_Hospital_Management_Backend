@@ -1,0 +1,91 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# SQLite database files
+*.sqlite3
+*.sqlite3-journal
+
+# Environment variables file
+.env
+
+# macOS specific
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python bytecode
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Secret keys and sensitive data
+*.pem
+*.key
+*.crt
+*.local
+
+# Backup files
+*.bak

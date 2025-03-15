@@ -1,5 +1,5 @@
 # Healthcare Backend
-
+![Alt Text](./healthcare-architecture.svg)
 A Django REST API for a healthcare application that manages patients, doctors, and their relationships.
 
 ## Features
